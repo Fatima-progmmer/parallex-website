@@ -1,0 +1,64 @@
+body,
+html {
+    height: 100%;
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimage1 {
+    background-image: url(img\ 1.jpg);
+    min-height: 100%;
+}
+
+.pimage1,
+.pimage2,
+.pimage3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimage2 {
+    background-image: url(img\ 2.jpg);
+    min-height: 400px;
+}
+
+.pimage3 {
+    background-image: url(img\ 3.jpg);
+    min-height: 400px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text {
+    background-color: #666;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.section-light {
+    background-color: white;
+    color: rgb(57, 52, 52);
+    padding: 50px 88px;
+}
+
+.section-dark {
+    background-color: black;
+    color: white;
+    padding: 50px 88px;
+}
